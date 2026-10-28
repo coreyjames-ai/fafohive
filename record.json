@@ -1,0 +1,46 @@
+{
+ "url": "https://coreyjames.ai/systems/fafohive/",
+ "kind": "system",
+ "title": "FAFOHive",
+ "subtitle": "The MCP hub every agent in my estate connects to: memory and code intelligence, hosted tools, and a governed tool gateway",
+ "systems": [],
+ "technologies": [
+  "Rust",
+  "Model Context Protocol (MCP)",
+  "tree-sitter",
+  "PostgreSQL",
+  "Redis",
+  "Hybrid lexical and vector retrieval",
+  "OAuth 2.0 and JWT",
+  "Webhook signature verification",
+  "Social platform APIs"
+ ],
+ "stats": [
+  {
+   "value": "475",
+   "label": "tools behind one authenticated endpoint"
+  },
+  {
+   "value": "294,033",
+   "label": "of 294,362 code chunks covered by the computed graph"
+  },
+  {
+   "value": "0",
+   "label": "failures with two thousand agents calling at once"
+  }
+ ],
+ "lede": "AI coding agents forget everything between sessions, rediscover the same facts about a codebase every day, and explain call paths that do not exist with complete confidence. Once they are allowed to act on real services they also need credentials they must never see. I solved those three problems in one service. FAFOHive is the authenticated MCP server every agent in my estate connects to. Inside it, a memory capability provides durable session memory and code intelligence grounded in a computed graph. Around that, FAFOHive hosts governance and media tools and a governed gateway to commercial and in-house integrations.",
+ "quote": "A refusal beats a plausible guess, because the caveat is the first thing a reader stops seeing.",
+ "evidence": [
+  "MCP server design: one authenticated MCP hub with 475 tools behind one endpoint, under one trust model with three dispatch paths.",
+  "Code intelligence for AI agents: a tree-sitter code graph of a 19,000-file multi-language monorepo with 294,033 of 294,362 code chunks covered, and an explainer that narrates only proven edges.",
+  "Memory for AI agents: a Rust session-memory layer that captures every tool call as an observation, embeds it and re-injects relevant context into later sessions.",
+  "Hybrid retrieval: code, observations and reference documents as three indexes behind one surface, lexical and dense search fused and reranked.",
+  "Governed API integration for AI agents: payments, email and social providers rebuilt as my own tools with server-side credentials, plus in-house modules with 36 tools for X, 24 for Facebook and 6 for Reddit.",
+  "Load testing with AI agent fleets: 0 failures with two thousand agents calling the service at once."
+ ],
+ "canonical": "https://coreyjames.ai/systems/fafohive/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/fafohive"
+}

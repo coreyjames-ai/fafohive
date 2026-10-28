@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+ "kind": "story",
+ "title": "A code explainer that is not allowed to invent",
+ "subtitle": "Compute the call graph first, narrate second: putting deterministic evidence in front of the model",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [
+  "Rust",
+  "tree-sitter",
+  "PostgreSQL",
+  "Redis",
+  "Code graph analysis",
+  "Embedding models"
+ ],
+ "stats": [
+  {
+   "value": "294,033",
+   "label": "of 294,362 code chunks covered by the graph"
+  },
+  {
+   "value": "0",
+   "label": "model calls in a dependency trace"
+  },
+  {
+   "value": "19,000",
+   "label": "files, several languages, in the indexed monorepo"
+  }
+ ],
+ "lede": "Ask a language model how a piece of code works and it will tell you, fluently, including call paths that do not exist. Engineers act on those answers. I built a code-intelligence service where the model may only describe edges that a computed graph has already proven. The graph is extracted from source with a parser, dependency traces are plain database traversals with no model involved, and the explainer narrates only the evidence it is handed. If the graph's coverage is incomplete for a query, the answer is \"coverage incomplete\". A monorepo of around 19,000 files across several languages, used daily by AI agents that must understand blast radius before changing a symbol.",
+ "quote": "A refusal beats a plausible guess, because the caveat is the first thing a reader stops seeing.",
+ "evidence": [
+  "Code intelligence for AI agents: a tree-sitter call graph over a 19,000-file multi-language monorepo, with 294,033 of 294,362 code chunks covered.",
+  "Hallucination prevention by design: the model narrates only a path the graph has proven, and a query the graph cannot fully cover returns coverage incomplete instead of a guess.",
+  "Graph queries in SQL: dependency tracing as a bounded breadth-first search over partitioned edge tables, with 0 model calls in a trace.",
+  "Index lifecycle design: edges move from pending to active as their endpoints are indexed, and graph generations let the index rebuild without serving a half-built graph."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/fafohive/tree/main/stories/a-code-explainer-that-is-not-allowed-to-invent"
+}

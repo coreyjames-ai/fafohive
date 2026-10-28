@@ -1,0 +1,46 @@
+{
+ "url": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+ "kind": "story",
+ "title": "Agents with real tools and no keys",
+ "subtitle": "A governed gateway that lets AI agent teams use payments, email and social-publishing services with every action attributed and no credential in any agent",
+ "systems": [
+  "fafohive",
+  "agentos"
+ ],
+ "technologies": [
+  "Rust",
+  "Model Context Protocol (MCP)",
+  "OAuth 2.0 and JWT",
+  "PostgreSQL",
+  "Webhook signature verification",
+  "TypeScript"
+ ],
+ "stats": [
+  {
+   "value": "~350",
+   "label": "vendor operations visible to managed agents, each rebuilt as my own tool"
+  },
+  {
+   "value": "0",
+   "label": "credentials held by any agent"
+  },
+  {
+   "value": "2 hosts",
+   "label": "attribution and webhook delivery proven end to end"
+  }
+ ],
+ "lede": "I wanted AI agent teams to run small experimental businesses: take payments, send email, publish to social platforms. The moment you hand an agent a vendor API key you have three problems. The key leaks into logs. You cannot say afterwards which assignment created which customer or post. And the vendor's events, a payment, a reply, a bounce, have no way back to the team that caused them. I built one governed gateway between agents and vendors that solves all three. It exposes several hundred vendor operations to managed agents, every one attributed, with no agent ever holding a key. Each provider publishes an API for exactly these services.",
+ "quote": "Attribution that might be silently dropped is worse than none.",
+ "evidence": [
+  "Governed API integration for AI agents: one gateway exposing ~350 vendor operations, each rebuilt from the provider's API as my own tool, with 0 credentials held by any agent.",
+  "Identity architecture for AI agents: identity derived from the authenticated assignment, never from tool arguments, so an agent cannot act or bind a website for another business.",
+  "Exactly-once delivery and crash recovery: durable accounting around every provider call, so a restart never repeats a charge or loses track of one.",
+  "Data attribution and provenance: attribution stamped into a vendor payload only where that operation and API version round-trips it, otherwise kept on my side; proven end to end on 2 hosts.",
+  "Webhook ingestion and routing: signed vendor events returned in frozen batches to the mailbox of the team lead whose assignment caused them."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/fafohive/tree/main/stories/agents-with-real-tools-and-no-keys"
+}

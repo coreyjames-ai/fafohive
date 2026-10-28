@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/stories/two-thousand-concurrent-workers/",
+ "kind": "story",
+ "title": "Two thousand concurrent workers",
+ "subtitle": "Load-testing the memory and code-intelligence service with a fleet of AI agents on one workstation, with zero failures",
+ "systems": [
+  "fafohive"
+ ],
+ "technologies": [
+  "Capacity engineering, backpressure and load testing",
+  "Rust",
+  "PostgreSQL",
+  "Hybrid retrieval",
+  "Code graph and static dependency analysis"
+ ],
+ "stats": [
+  {
+   "value": "2,000",
+   "label": "concurrent AI workers on the retrieval tools at once"
+  },
+  {
+   "value": "0",
+   "label": "failures across the run"
+  },
+  {
+   "value": "1,479",
+   "label": "requests a second held in keyword mode, from a floor of 1,271"
+  }
+ ],
+ "lede": "Every agent in my estate asks the memory service before it acts: what did we decide, what calls this symbol, how does this path work. If that service stalls under a fleet, every agent stalls with it. So I load-tested it the way the fleet uses it: two thousand concurrent AI workers hammering the retrieval tools at once, on a single workstation. Nothing failed. One workstation: a 24-core Intel Core Ultra with 256 GB of DDR5 and a consumer Blackwell GPU that was not used to accelerate retrieval. The service is Rust over PostgreSQL. Semantic search ran at about 1.2 seconds median across a working codebase. Every endpoint is bounded. The reranker saturates rather than errors under load.",
+ "quote": "The slow row is honest: code search over a large index at two thousand concurrent callers is bound by the database, and the numbers say so.",
+ "evidence": [
+  "Load testing with AI agent fleets: 2,000 concurrent AI workers on a memory and code-intelligence service on one workstation, with 0 failures.",
+  "Capacity engineering and backpressure: every endpoint bounded, a reranker that saturates instead of erroring, and a dedicated pool so observation writes never compete with reads.",
+  "Retrieval service performance: 1,479 requests a second held in keyword mode from a floor of 1,271; repeat questions answered from cache in under 100 milliseconds.",
+  "Rust and PostgreSQL service design: a precomputed code graph, so a dependency trace under load is a bounded traversal rather than a model call."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/two-thousand-concurrent-workers/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/fafohive/tree/main/stories/two-thousand-concurrent-workers"
+}
