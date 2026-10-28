@@ -40,5 +40,8 @@
  "canonical": "https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/",
  "datePublished": "2026-10-28",
  "author": "Corey James",
- "github": "https://github.com/coreyjames-ai/fafohive/tree/main/stories/a-code-explainer-that-is-not-allowed-to-invent"
+ "github": "https://github.com/coreyjames-ai/fafohive/tree/main/stories/a-code-explainer-that-is-not-allowed-to-invent",
+ "doi": "10.5281/zenodo.23735132",
+ "doi_relation": "part-of",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
 }

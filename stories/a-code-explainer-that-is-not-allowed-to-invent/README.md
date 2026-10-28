@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735132 (this page is a chapter of the system's report)  
 Systems: [FAFOHive](https://github.com/coreyjames-ai/fafohive)  
 Technologies: [Code graph and static dependency analysis](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/code-graph-and-static-dependency-analysis) · [Evidence-grounded LLM output](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-grounded-llm-output) · [Hugging Face Text Embeddings Inference](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hugging-face-text-embeddings-inference) · [Hybrid retrieval](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hybrid-retrieval) · [Multi-vendor LLM integration](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/multi-vendor-llm-integration) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [PyO3](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/pyo3) · [Redis](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/redis) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [Text embedding models](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/text-embedding-models) · [Web crawling and document extraction](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/web-crawling-and-document-extraction) · [pgvector](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/pgvector) · [rmcp (Rust MCP SDK)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rmcp-rust-mcp-sdk) · [tree-sitter](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tree-sitter)  
 Skills: [evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/evidence-gated-acceptance) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
@@ -84,7 +85,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "A code explainer that is not allowed to invent." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/
+Corey James. "A code explainer that is not allowed to invent." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/ In: the FAFOHive technical report, doi:10.5281/zenodo.23735132.
 
 ```bibtex
 @misc{coreyjames-a-code-explainer-that-is-not-allowed-to-invent,
@@ -92,7 +93,8 @@ Corey James. "A code explainer that is not allowed to invent." coreyjames.ai, 20
   title = {A code explainer that is not allowed to invent},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/a-code-explainer-that-is-not-allowed-to-invent/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/fafohive/tree/main/stories/a-code-explainer-that-is-not-allowed-to-invent}
+  note = {GitHub copy: https://github.com/coreyjames-ai/fafohive/tree/main/stories/a-code-explainer-that-is-not-allowed-to-invent},
+  doi = {10.5281/zenodo.23735132}
 }
 ```
 

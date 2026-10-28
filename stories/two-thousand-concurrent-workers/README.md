@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/two-thousand-concurrent-workers/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735132 (this page is a chapter of the system's report)  
 Systems: [FAFOHive](https://github.com/coreyjames-ai/fafohive)  
 Technologies: [Capacity engineering, backpressure and load testing](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/capacity-engineering-backpressure-and-load-testing) · [Code graph and static dependency analysis](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/code-graph-and-static-dependency-analysis) · [Hybrid retrieval](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/hybrid-retrieval) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [inference serving architecture](https://github.com/coreyjames-ai/portfolio/tree/main/skills/inference-serving-architecture) · [Rust systems engineering](https://github.com/coreyjames-ai/portfolio/tree/main/skills/rust-systems-engineering) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness)  
@@ -62,7 +63,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Two thousand concurrent workers." coreyjames.ai, 2026. https://coreyjames.ai/stories/two-thousand-concurrent-workers/
+Corey James. "Two thousand concurrent workers." coreyjames.ai, 2026. https://coreyjames.ai/stories/two-thousand-concurrent-workers/ In: the FAFOHive technical report, doi:10.5281/zenodo.23735132.
 
 ```bibtex
 @misc{coreyjames-two-thousand-concurrent-workers,
@@ -70,7 +71,8 @@ Corey James. "Two thousand concurrent workers." coreyjames.ai, 2026. https://cor
   title = {Two thousand concurrent workers},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/two-thousand-concurrent-workers/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/fafohive/tree/main/stories/two-thousand-concurrent-workers}
+  note = {GitHub copy: https://github.com/coreyjames-ai/fafohive/tree/main/stories/two-thousand-concurrent-workers},
+  doi = {10.5281/zenodo.23735132}
 }
 ```
 

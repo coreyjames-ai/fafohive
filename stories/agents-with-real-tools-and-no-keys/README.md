@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735132 (this page is a chapter of the system's report)  
 Systems: [FAFOHive](https://github.com/coreyjames-ai/fafohive) · [AgentOS](https://github.com/coreyjames-ai/agentos)  
 Technologies: [Business-provider APIs rebuilt as governed agent tools](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/business-provider-apis-rebuilt-as-governed-agent-tools) · [Cloudflare Tunnel](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cloudflare-tunnel) · [Idempotency, exactly-once effects and crash recovery](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/idempotency-exactly-once-effects-and-crash-recovery) · [Identity and access management for AI agents](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/identity-and-access-management-for-ai-agents) · [JSON Web Token (JWT)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-web-token-jwt) · [MCP tool design](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mcp-tool-design) · [Meta Graph API](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/meta-graph-api) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [OAuth 2.0](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/oauth-2-0) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [Prompt-injection-aware tooling](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/prompt-injection-aware-tooling) · [Python](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/python) · [Reddit](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/reddit) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [SQLite](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/sqlite) · [TypeScript](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/typescript) · [Webhook ingestion and verification](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/webhook-ingestion-and-verification) · [X API](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/x-api)  
 Skills: [exactly-once delivery and crash recovery](https://github.com/coreyjames-ai/portfolio/tree/main/skills/exactly-once-delivery-and-crash-recovery) · [tool synthesis and governed API integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/tool-synthesis-and-governed-api-integration) · [multi-agent governance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/multi-agent-governance) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness)  
@@ -99,7 +100,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Agents with real tools and no keys." coreyjames.ai, 2026. https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/
+Corey James. "Agents with real tools and no keys." coreyjames.ai, 2026. https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/ In: the FAFOHive technical report, doi:10.5281/zenodo.23735132.
 
 ```bibtex
 @misc{coreyjames-agents-with-real-tools-and-no-keys,
@@ -107,7 +108,8 @@ Corey James. "Agents with real tools and no keys." coreyjames.ai, 2026. https://
   title = {Agents with real tools and no keys},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/agents-with-real-tools-and-no-keys/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/fafohive/tree/main/stories/agents-with-real-tools-and-no-keys}
+  note = {GitHub copy: https://github.com/coreyjames-ai/fafohive/tree/main/stories/agents-with-real-tools-and-no-keys},
+  doi = {10.5281/zenodo.23735132}
 }
 ```
 

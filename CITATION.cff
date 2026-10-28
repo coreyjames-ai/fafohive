@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: Cite this repository's report by its DOI.
+type: dataset
+title: "FAFOHive: The MCP hub every agent in my estate connects to: memory and code intelligence, hosted tools, and a governed tool gateway"
+authors:
+  - given-names: Corey
+    family-names: James
+    orcid: https://orcid.org/0009-0008-7246-963X
+doi: 10.5281/zenodo.23735132
+date-released: 2026-10-28
+url: https://coreyjames.ai/systems/fafohive/
+repository-code: https://github.com/coreyjames-ai/fafohive
+license: CC-BY-4.0
+abstract: "The MCP hub every agent in my estate connects to: memory and code intelligence, hosted tools, and a governed tool gateway"

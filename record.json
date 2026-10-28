@@ -42,5 +42,8 @@
  "canonical": "https://coreyjames.ai/systems/fafohive/",
  "datePublished": "2026-10-28",
  "author": "Corey James",
- "github": "https://github.com/coreyjames-ai/fafohive"
+ "github": "https://github.com/coreyjames-ai/fafohive",
+ "doi": "10.5281/zenodo.23735132",
+ "doi_relation": "self",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
 }
